@@ -1,0 +1,1 @@
+<div class="md:w-{{$size}}/12">{{ $colsss }}</div>

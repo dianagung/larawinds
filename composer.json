@@ -1,0 +1,19 @@
+{
+    "name": "dianagung/larawinds",
+    "description": "The Laravel-Tailwind CSS Components Kit",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dianagung\\Larawinds\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dian Agung",
+            "email": "mail@dianagung.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

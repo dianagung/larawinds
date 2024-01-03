@@ -1,0 +1,1 @@
+<div class="my-3 flex md:flex-row flex-col justify-{{ $justify }} items-{{ $valign }} gap-{{ $gap }} w-full">{{ $slot }}</div>
