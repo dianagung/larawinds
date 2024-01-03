@@ -22,7 +22,7 @@ Dianagung\Larawinds\LarawindsServiceProvider::class
 
 ## Setting Tailwind
 
-Open `tailwind.config.js` file on your project. Then add the following command:
+Open `tailwind.config.js` file on your project. Then add the following command :
 
 ```javascript
 content: [
