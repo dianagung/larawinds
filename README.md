@@ -6,10 +6,18 @@ Follow the guide for installing Larawinds on your Laravel projects.
 
 ## Composer
 
-First, you need to install composer packages for Laravel:
+First, you need to install composer packages for Larawinds:
 
 ```console
-composer install
+composer require dianagung/larawinds
+```
+
+## Registering Service Provider
+
+You need to register the Larawinds service provider in `config/app.php`:
+
+```
+Dianagung\Larawinds\LarawindsServiceProvider::class
 ```
 
 ## Dependencies
