@@ -6,7 +6,7 @@
     <title>{{ $title }}</title>
     <meta name="title" content="{{ $metaTitle }}" />
     <meta name="description" content="{{ $metaDescription }}" />
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.js', 'vendor/dianagung/larawinds/src/resources/js/app.js'])
 </head>
 <body>
     {{ $slot }}

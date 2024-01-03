@@ -1,12 +1,10 @@
 import './bootstrap';
 import Alpine from 'alpinejs';
-import collapse from '@alpinejs/collapse'
 import Datepicker from 'vanillajs-datepicker/Datepicker';
 import 'vanillajs-datepicker/css/datepicker.css';
 import Swal from 'sweetalert2';
  
 window.Alpine = Alpine
-// Alpine.plugin(collapse)
 Alpine.start()
 
 /*
