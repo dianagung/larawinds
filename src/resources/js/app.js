@@ -151,6 +151,27 @@ inputNumber.forEach(input => {
 
 /*
 *********************************
+**  Code for Input Password
+*********************************
+*/
+const inputPassword = document.querySelectorAll('input[data-type="password"]');
+inputPassword.forEach(input => {
+    let showPassword = input.parentElement.nextElementSibling.querySelector('.showPassword');
+    let hidePassword = input.parentElement.nextElementSibling.querySelector('.hidePassword');
+    showPassword.addEventListener("click", function(e) {
+        input.type = "text";
+        hidePassword.style.display = "block";
+        showPassword.style.display = "none";
+    });
+    hidePassword.addEventListener("click", function(e) {
+        input.type = "password";
+        hidePassword.style.display = "none";
+        showPassword.style.display = "block";
+    });
+});
+
+/*
+*********************************
 **  Code for Button Delete
 *********************************
 */

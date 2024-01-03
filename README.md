@@ -61,6 +61,12 @@ npm run dev
 <x-input.number name="price" label="Price" prefix="IDR" suffix="Pcs" maxlength="18" value="" />
 ```
 
+### Input Password
+
+```blade
+<x-input.password name="password" label="Password" placeholder="Enter password here" value="" />
+```
+
 ### Input Date
 
 ```blade
@@ -77,8 +83,20 @@ npm run dev
 
 ### Checkbox
 
+**Uncheck**
+
 ```blade
 <x-checkbox name="newsletter" title="Submit Newsletter" text="Get upto 45% OFF discount for this seasons." />
+```
+
+**Checked**
+
+```blade
+<x-checkbox name="newsletter" title="Submit Newsletter" text="Get upto 45% OFF discount for this seasons." checked="1" />
+```
+or
+```blade
+<x-checkbox name="newsletter" title="Submit Newsletter" text="Get upto 45% OFF discount for this seasons." checked="true" />
 ```
 
 ## Uploads

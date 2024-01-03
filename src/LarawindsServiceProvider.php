@@ -10,7 +10,6 @@ class LarawindsServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
         $this->loadViewsFrom(__DIR__ . '/resources/views/', 'larawinds');
         $this->callAfterResolving(BladeCompiler::class, function () {
             Blade::component('button.primary', View\Components\Button\Primary::class);

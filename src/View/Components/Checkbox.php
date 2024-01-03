@@ -11,15 +11,18 @@ class Checkbox extends Component
     public $name;
     public $title;
     public $text;
+    public $checked;
     public function __construct(
         $name  = "",
         $title = "Submit this form?",
-        $text  = "You can update this form letter."
+        $text  = "You can update this form letter.",
+        $checked = ""
     )
     {
-        $this->name  = $name;
-        $this->title = $title;
-        $this->text  = $text;
+        $this->name    = $name;
+        $this->title   = $title;
+        $this->text    = $text;
+        $this->checked = $checked;
     }
 
     /**
