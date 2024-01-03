@@ -21,6 +21,7 @@ class LarawindsServiceProvider extends ServiceProvider
             Blade::component('input.number', View\Components\Input\Number::class);
             Blade::component('input.text', View\Components\Input\Text::class);
             Blade::component('input.textarea', View\Components\Input\Textarea::class);
+            Blade::component('input.password', View\Components\Input\Password::class);
             Blade::component('navbar.menu', View\Components\Navbar\Menu::class);
             Blade::component('navbar.topbar', View\Components\Navbar\Topbar::class);
             Blade::component('upload.image', View\Components\Upload\Image::class);
