@@ -20,6 +20,17 @@ You need to register the Larawinds service provider in `config/app.php`:
 Dianagung\Larawinds\LarawindsServiceProvider::class
 ```
 
+## Setting Tailwind
+
+Open `tailwind.config.js` file on your project. Then add the following command:
+
+```javascript
+content: [
+    "./vendor/dianagung/larawinds/src/resources/**/*.blade.php",
+    "./vendor/dianagung/larawinds/src/resources/**/*.js",
+  ],
+```
+
 ## Dependencies
 
 Install NPM packages below:
