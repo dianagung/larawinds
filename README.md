@@ -99,6 +99,20 @@ or
 <x-checkbox name="newsletter" title="Submit Newsletter" text="Get upto 45% OFF discount for this seasons." checked="true" />
 ```
 
+### Radio
+
+**Uncheck**
+
+```blade
+<x-radio name="package" title="Free, Pro" text="IDR 99000, IDR 249000" value="free,pro" />
+```
+
+**Checked**
+
+```blade
+<x-radio name="package" title="Free, Pro" text="IDR 99000, IDR 249000" value="free,pro" key="free" />
+```
+
 ## Uploads
 
 ### Upload Image

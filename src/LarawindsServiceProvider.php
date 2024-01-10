@@ -37,6 +37,7 @@ class LarawindsServiceProvider extends ServiceProvider
             Blade::component('tbody', View\Components\Tbody::class);
             Blade::component('thead', View\Components\Thead::class);
             Blade::component('update', View\Components\Update::class);
+            Blade::component('radio', View\Components\Radio::class);
 		});
     }
 
